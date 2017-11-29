@@ -6,7 +6,7 @@ import cn.fywspring.factorypattern.Shape;
  * 使用FactoryProducer来获取AbstractFactory，通过传递类型信息来获取实体类的对象
  * Created by Yiwan on 2017/11/28 0028.
  */
-public class AbstractFactoryPattern {
+public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {
         // 获取形状工厂
         AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
