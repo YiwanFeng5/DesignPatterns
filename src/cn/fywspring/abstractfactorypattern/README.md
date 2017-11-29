@@ -60,3 +60,28 @@ AbstractFactoryPatternDemo，测试使用FactoryProducer获取AbstractFactory对
         Color(interface,+fill(): void)
         < --implements
         Red,Green,Blue`
+
+**步骤1：** 为形状创建一个接口Shape.java
+
+**步骤2：** 创建实现接口Shape的各个实体类Rectangle.java, Circle.java, Square.java
+
+**步骤3：** 为颜色创建一个接口 Color.java
+
+**步骤4：** 创建实现接口Color的各个实体类Red.java, Green.java, Blue.java
+
+**步骤5：** 为Color和Shape对象创建抽象来获取工厂AbstractFactory.java
+
+**步骤6：** 创建扩展了AbstractFactory的工厂类，基于给定的信息生成实体类的对象ShapeFactory.java和ColorFactory
+
+**步骤7：** 创建一个工厂创造器生成器类，通过传递形状或颜色信息来获取工厂
+
+**步骤8：** 使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。AbstractFactoryPatternDemo.java
+
+**步骤9：** 验证结果
+
+Inside Circle::draw() method.
+Inside Rectangle::draw() method.
+Inside Square::draw() method.
+Inside Red::fill() method.
+Inside Green::fill() method.
+Inside Blue::fill() method.
