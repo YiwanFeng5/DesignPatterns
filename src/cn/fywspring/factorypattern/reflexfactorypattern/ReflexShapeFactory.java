@@ -1,6 +1,5 @@
-package cn.fywspring.reflexfactorypattern;
+package cn.fywspring.factorypattern.reflexfactorypattern;
 
-import cn.fywspring.factorypattern.Circle;
 import cn.fywspring.factorypattern.Shape;
 
 /**
