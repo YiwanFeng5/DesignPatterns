@@ -17,5 +17,6 @@ public class PrototypePatternDemo {
 
         Shape cloneShape3 = (Shape) ShapeCache.getShape("3");
         System.out.println("Shape : " + cloneShape3.getType());
+
     }
 }

@@ -127,3 +127,4 @@ public enum Singleton {
         System.out.println("枚举单例设计模式");
     }
 }
+
